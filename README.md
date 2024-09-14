@@ -16,11 +16,34 @@ Monthly Performance: Line chart that tracks the sum of closing prices for each t
 Scatter Plot of Total Volume vs. Daily Price Change: This scatter plot visualizes the relationship between total trading volume and daily price changes, helping to explore the correlation between market activity and stock price movements.
 
 # insights
-AAPL and MSFT dominate both in terms of trading volume and volatility, indicating these stocks are more frequently traded and experience higher price fluctuations.
+ Average Daily Volume by Ticker:
+AAPL (Apple) has the highest average daily trading volume, exceeding 60M shares.
 
-GOOG and NFLX exhibit less volatility and lower volumes, making them comparatively stable but less actively traded.
+MSFT (Microsoft) and  GOOG (google) comes next with a volume around 30M.
 
-Trading volumes for most stocks are concentrated in periods of minimal price change, reflecting cautious trading during volatile market conditions.
+ Netflix have the lowest.
+
+Volatility by Ticker:
+
+NFLX shows the highest volatility (37.2%), followed by MSFT(35.44%). These stocks are the most volatile in this analysis.
+
+AAPL is less volatile, accounting for 14.76%, while GOOG is the least volatile with only 12.59%.
+
+Sum of Close by Month and Ticker:
+
+NFLX has the highest closing prices over time, peaking in March and slightly dropping towards May.
+
+MSFT follows a similar trend, with a steady increase in prices up to March before seeing a decline in May.
+
+GOOG and NFLX maintain lower closing prices compared to the others, with more gradual price movements
+
+Total Volume vs. Daily Price Change:
+
+There is a strong clustering of high volume and minor price changes for AAPL, MSFT, and GOOG, especially at low price deviations.
+
+Larger price changes are associated with lower volumes, indicating that substantial price shifts may not coincide with the highest trading volumes.
+
+NFLX tends to have smaller bubbles, meaning lower volumes and less dramatic price movements.
 
 # Contributing
 
